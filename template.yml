@@ -4,7 +4,7 @@ Resources:
     Type: "AWS::Amplify::App"
     Properties: 
       Name: "MyNextJsApp"
-      Repository: "https://github.com/saurabhpanth26/next-js-application.git"
+      Repository: "https://github.com/saurabhpanth26/sample-nextjs-application.git"
       OauthToken: "{{resolve:ssm:/github/token}}"
       BuildSpec: "amplify.yml"
 
